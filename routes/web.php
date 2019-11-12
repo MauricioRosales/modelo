@@ -11,12 +11,11 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
-Route::get('/inicio', function () {
-    return view('inicio');
-});
-Route::get('/agenda', function () {
-    return view('agenda');
-});
+});*/
+Route::get('/', 'InicioController@index');
+
+
+
+
