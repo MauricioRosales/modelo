@@ -4,10 +4,10 @@
           <!-- Sidebar user panel -->
           <div class="user-panel">
             <div class="pull-left image">
-              <img src="{{asset("assets/$theme/dist/img/user2-160x160.jpg")}}" class="img-circle" alt="User Image">
+              <img src="{{asset("assets/$theme/dist/img/bosquejo1.jpg")}}" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
-              <p>Alexander Pierce</p>
+              <p>Mauricio Rosales</p>
               <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>
           </div>
@@ -24,17 +24,52 @@
           <!-- /.search form -->
           <!-- sidebar menu: : style can be found in sidebar.less -->
           <ul class="sidebar-menu" data-widget="tree">
-            <li class="header">MAIN NAVIGATION</li>
+            <li class="header">MENU DE NAVEGACION</li>
             <li class="treeview">
               <a href="#">
-                <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                <i class="fa fa-group"></i> <span>Administración</span>
                 <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
                 </span>
               </a>
               <ul class="treeview-menu">
-                <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-                <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+                <li><a href="../../index.html"><i class="fa fa-user"></i> Usuarios</a></li>
+                <li><a href="../../index2.html"><i class="fa fa-edit"></i> Permisos</a></li>
+                <li><a href="../../index2.html"><i class="fa fa-suitcase"></i> Servicios</a></li>
+              </ul>
+            </li>
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-user-plus"></i>
+                <span>Citas Medicas</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="../charts/chartjs.html"><i class="fa fa-list-alt"></i> Agenda</a></li>
+                <li><a href="../charts/morris.html"><i class="fa fa-user-o"></i> Pacientes</a></li>
+                <li><a href="../charts/flot.html"><i class="fa fa-user-md"></i> Medicos</a></li>
+                <li><a href="../charts/inline.html"><i class="fa fa-hospital-o"></i> Entidades</a></li>
+              </ul>
+            </li>
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-folder"></i> <span>Examples</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="../examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
+                <li><a href="../examples/profile.html"><i class="fa fa-circle-o"></i> Profile</a></li>
+                <li><a href="../examples/login.html"><i class="fa fa-circle-o"></i> Login</a></li>
+                <li><a href="../examples/register.html"><i class="fa fa-circle-o"></i> Register</a></li>
+                <li><a href="../examples/lockscreen.html"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
+                <li><a href="../examples/404.html"><i class="fa fa-circle-o"></i> 404 Error</a></li>
+                <li><a href="../examples/500.html"><i class="fa fa-circle-o"></i> 500 Error</a></li>
+                <li><a href="../examples/blank.html"><i class="fa fa-circle-o"></i> Blank Page</a></li>
+                <li><a href="../examples/pace.html"><i class="fa fa-circle-o"></i> Pace Page</a></li>
               </ul>
             </li>
             <li class="treeview active">
@@ -59,21 +94,6 @@
                   <small class="label pull-right bg-green">new</small>
                 </span>
               </a>
-            </li>
-            <li class="treeview">
-              <a href="#">
-                <i class="fa fa-pie-chart"></i>
-                <span>Charts</span>
-                <span class="pull-right-container">
-                  <i class="fa fa-angle-left pull-right"></i>
-                </span>
-              </a>
-              <ul class="treeview-menu">
-                <li><a href="../charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
-                <li><a href="../charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>
-                <li><a href="../charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>
-                <li><a href="../charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>
-              </ul>
             </li>
             <li class="treeview">
               <a href="#">
@@ -135,25 +155,6 @@
                   <small class="label pull-right bg-red">5</small>
                 </span>
               </a>
-            </li>
-            <li class="treeview">
-              <a href="#">
-                <i class="fa fa-folder"></i> <span>Examples</span>
-                <span class="pull-right-container">
-                  <i class="fa fa-angle-left pull-right"></i>
-                </span>
-              </a>
-              <ul class="treeview-menu">
-                <li><a href="../examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
-                <li><a href="../examples/profile.html"><i class="fa fa-circle-o"></i> Profile</a></li>
-                <li><a href="../examples/login.html"><i class="fa fa-circle-o"></i> Login</a></li>
-                <li><a href="../examples/register.html"><i class="fa fa-circle-o"></i> Register</a></li>
-                <li><a href="../examples/lockscreen.html"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
-                <li><a href="../examples/404.html"><i class="fa fa-circle-o"></i> 404 Error</a></li>
-                <li><a href="../examples/500.html"><i class="fa fa-circle-o"></i> 500 Error</a></li>
-                <li><a href="../examples/blank.html"><i class="fa fa-circle-o"></i> Blank Page</a></li>
-                <li><a href="../examples/pace.html"><i class="fa fa-circle-o"></i> Pace Page</a></li>
-              </ul>
             </li>
             <li class="treeview">
               <a href="#">
